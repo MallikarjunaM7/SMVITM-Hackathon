@@ -16,7 +16,7 @@ export default function Home() {
         lastName: user.lastName,
       };
 
-      await fetch("http://localhost:5000/api/save-user", {
+      await fetch("http://localhost:5000/api/admin-save", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
